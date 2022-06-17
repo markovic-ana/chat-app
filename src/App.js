@@ -1,17 +1,15 @@
 import './App.css'
-import background from './images/chat_background.png'
+import UserList from './components/UserList/UserList'
 
 function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1>Chatty</h1>
+        <h1>Chatty 🤖</h1>
       </header>
       <body className="body">
         <div className="userList">
-          <p> chat 1</p>
-          <p> chat 2</p>
-          <p> chat 3</p>
+          <UserList />
         </div>
         <div className="chat">
           <p> bla</p>
@@ -19,7 +17,7 @@ function App() {
       </body>
 
       <footer className="footer">
-        <h3>Chatty</h3>
+        <h3>Chatty 🤖</h3>
         <hr className="hr"></hr>
         <div className="footerLinks">
           <div className="links1">
