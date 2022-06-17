@@ -7,14 +7,12 @@ function App() {
       <header className="header">
         <h1>Chatty 🤖</h1>
       </header>
-      <body className="body">
+      <div className="body">
         <div className="userList">
           <UserList />
         </div>
-        <div className="chat">
-          <p> bla</p>
-        </div>
-      </body>
+        <div className="chat"></div>
+      </div>
 
       <footer className="footer">
         <h3>Chatty 🤖</h3>
